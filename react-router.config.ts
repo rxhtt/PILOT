@@ -10,4 +10,4 @@ export default {
     v3_singleFetch: true,
     unstable_singleFetch: true,
   },
-} satisfies Config;
+} as unknown as Config;
