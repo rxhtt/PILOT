@@ -2,5 +2,5 @@
     "version": 2,
     "framework": "remix",
     "buildCommand": "npm run build:vercel",
-    "outputDirectory": "dist"
+    "outputDirectory": "build/client"
 }
