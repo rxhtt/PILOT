@@ -6,4 +6,8 @@ export default {
   appDirectory: "app",
   buildDirectory: "build",
   ssr: true,
+  future: {
+    v3_singleFetch: true,
+    unstable_singleFetch: true,
+  },
 } satisfies Config;
