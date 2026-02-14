@@ -64,6 +64,7 @@
     "@radix-ui/react-visually-hidden": "1.2.4",
     "@react-router/dev": "7.9.2",
     "@shopify/hydrogen": "^2025.7.0",
+    "@shopify/hydrogen-react-router-adapter-vercel": "^2025.7.0",
     "@tailwindcss/vite": "^4.1.17",
     "@vercel/remix": "^2.16.7",
     "@weaverse/hydrogen": "^5.9.1",
