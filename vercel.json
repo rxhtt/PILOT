@@ -1,7 +1,5 @@
 {
     "version": 2,
     "framework": "remix",
-    "build": {
-        "command": "npm run build:vercel"
-    }
+    "buildCommand": "npm run build:vercel"
 }
