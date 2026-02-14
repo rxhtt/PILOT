@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "framework": "remix",
+    "build": {
+        "command": "npm run build:vercel"
+    },
+    "outputs": [
+        "dist"
+    ]
+}
