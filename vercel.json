@@ -3,8 +3,5 @@
     "framework": "remix",
     "build": {
         "command": "npm run build:vercel"
-    },
-    "outputs": [
-        "dist"
-    ]
+    }
 }
