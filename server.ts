@@ -24,7 +24,21 @@ export default {
        * Hydrogen's Storefront client to the loader context.
        */
       const handleRequest = createRequestHandler({
-        build: remixBuild,
+        build: {
+          ...remixBuild,
+          publicPath: remixBuild.publicPath ?? "/build/",
+          assetsBuildDirectory:
+            remixBuild.assetsBuildDirectory ?? "build/client",
+          future: {
+            v3_fetcherPersist: true,
+            v3_relativeSplatPath: true,
+            v3_throwAbortReason: true,
+            v3_lazyRouteDiscovery: true,
+            v3_singleFetch: true,
+            unstable_singleFetch: true,
+            ...remixBuild.future,
+          },
+        } as any,
         mode: process.env.NODE_ENV,
         getLoadContext: () => hydrogenContext,
       });
