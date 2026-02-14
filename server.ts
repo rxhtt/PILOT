@@ -30,13 +30,9 @@ export default {
           assetsBuildDirectory:
             remixBuild.assetsBuildDirectory ?? "build/client",
           future: {
-            v3_fetcherPersist: true,
-            v3_relativeSplatPath: true,
-            v3_throwAbortReason: true,
-            v3_lazyRouteDiscovery: true,
+            ...remixBuild.future,
             v3_singleFetch: true,
             unstable_singleFetch: true,
-            ...remixBuild.future,
           },
         } as any,
         mode: process.env.NODE_ENV,
