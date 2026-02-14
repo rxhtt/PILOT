@@ -22,22 +22,7 @@ export default {
       /**
        * Create a Remix request handler and pass
        */
-      const importedBuild = (remixBuild as any).default ?? remixBuild;
-
-      console.log('Build keys:', Object.keys(importedBuild));
-      console.log('Build future:', importedBuild.future);
-
-      const build = {
-        ...importedBuild,
-        publicPath: importedBuild.publicPath ?? "/build/",
-        assetsBuildDirectory:
-          importedBuild.assetsBuildDirectory ?? "dist/client",
-        lastFuture: (importedBuild.future || {}),
-        future: {
-          ...(importedBuild.future || {}),
-          v3_singleFetch: false,
-        },
-      };
+      const build = (remixBuild as any).default ?? remixBuild;
 
       const handleRequest = createRequestHandler({
         build: build as any,

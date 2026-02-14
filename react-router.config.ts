@@ -5,5 +5,5 @@ export default {
   presets: [hydrogenPreset()],
   appDirectory: "app",
   buildDirectory: "dist",
-  ssr: false,
+  ssr: true,
 } as unknown as Config;
