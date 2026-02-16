@@ -1,29 +1,28 @@
 {
-  "name": "@weaverse/pilot",
-  "version": "7.2.0",
-  "description": "A production-ready Shopify storefront built with Hydrogen and Weaverse",
+  "name": "veena-ecommerce-storefront",
+  "version": "1.0.0",
+  "description": "BCA Final Year Project - Production-ready Shopify Hydrogen Storefront by Veena Desai",
   "keywords": [
     "shopify",
     "hydrogen",
-    "theme",
-    "hydrogen-theme",
-    "weaverse",
     "ecommerce",
     "react",
     "react-router",
     "typescript",
-    "tailwindcss"
+    "tailwindcss",
+    "bca-project",
+    "final-year-project"
   ],
   "license": "MIT",
-  "author": "SMEETA PANNAKAR",
+  "author": "VEENA DESAI (U02AJ23S0436) - desaiveena660@gmail.com",
   "type": "module",
-  "homepage": "https://pilot.weaverse.dev",
+  "homepage": "https://github.com/rxhtt/PILOT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/weaverse/pilot.git"
+    "url": "git+https://github.com/rxhtt/PILOT.git"
   },
   "bugs": {
-    "url": "https://github.com/weaverse/pilot/issues"
+    "url": "https://github.com/rxhtt/PILOT/issues"
   },
   "scripts": {
     "build": "shopify hydrogen build --codegen",
