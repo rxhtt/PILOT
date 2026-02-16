@@ -31,6 +31,7 @@ export default defineConfig({
   ssr: {
     optimizeDeps: {
       include: [
+        "framer-motion",
         "deepmerge",
         "@radix-ui/react-primitive",
         "jsonp",
@@ -50,5 +51,6 @@ export default defineConfig({
         "textr",
       ],
     },
+    noExternal: ["framer-motion", "@fontsource-variable/cabin"],
   },
 });
