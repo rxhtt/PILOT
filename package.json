@@ -100,6 +100,7 @@
     "@types/react-dom": "19.2.3",
     "@weaverse/biome": "5.7.1",
     "cross-env": "10.1.0",
+    "@vercel/react-router": "^1.2.0",
     "tailwindcss": "^4.1.17",
     "ts-node": "10.9.2",
     "typescript": "5.9.3",

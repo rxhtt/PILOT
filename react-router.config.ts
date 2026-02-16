@@ -1,8 +1,9 @@
 import type { Config } from "@react-router/dev/config";
 import { hydrogenPreset } from "@shopify/hydrogen/react-router-preset";
+import { vercelPreset } from "@vercel/react-router/vercel-preset";
 
 export default {
-  presets: [hydrogenPreset()],
+  presets: [hydrogenPreset(), vercelPreset()],
   appDirectory: "app",
   buildDirectory: "dist",
   ssr: true,
