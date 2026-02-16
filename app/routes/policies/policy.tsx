@@ -57,7 +57,9 @@ export default function Policies() {
       <div className="mt-8 lg:mt-20">
         <div
           suppressHydrationWarning
-          dangerouslySetInnerHTML={{ __html: policy.body }}
+          dangerouslySetInnerHTML={{
+            __html: policy.body.replace(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi, '')
+          }}
           className="prose"
         />
       </div>

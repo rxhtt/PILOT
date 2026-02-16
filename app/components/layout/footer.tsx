@@ -50,31 +50,40 @@ export function Footer() {
         <div className="flex flex-col items-center justify-center space-y-8 text-center">
           <div className="space-y-4">
             <h2 className="text-4xl font-bold tracking-tight text-(--color-footer-text) lg:text-5xl uppercase">
-              SMEETA PANNAKAR
+              VEENA DESAI
             </h2>
             <div className="h-1.5 w-32 mx-auto bg-primary rounded-full" />
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 w-full max-w-5xl pt-8">
-            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-primary/50 transition-colors">
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-primary mb-2">Student ID</h3>
-              <p className="text-xl font-medium">U02AJ23S0440</p>
+            <div className="group relative p-6 rounded-2xl overflow-hidden backdrop-blur-md bg-white/5 border border-white/10 hover:border-white/20 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20 hover:-translate-y-1">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="relative z-10">
+                <h3 className="text-xs font-bold uppercase tracking-widest text-primary/80 mb-3">Student ID</h3>
+                <p className="text-2xl font-bold tracking-tight text-white drop-shadow-sm">U02AJ23S0436</p>
+              </div>
             </div>
 
-            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-primary/50 transition-colors">
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-primary mb-2">College</h3>
-              <p className="text-xl font-medium leading-tight">GOVERNMENT FIRST GRADE COLLEGE DHARWAD</p>
+            <div className="group relative p-6 rounded-2xl overflow-hidden backdrop-blur-md bg-white/5 border border-white/10 hover:border-white/20 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20 hover:-translate-y-1">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="relative z-10">
+                <h3 className="text-xs font-bold uppercase tracking-widest text-primary/80 mb-3">College</h3>
+                <p className="text-xl font-bold leading-tight text-white drop-shadow-sm">GOVERNMENT FIRST GRADE COLLEGE DHARWAD</p>
+              </div>
             </div>
 
-            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-primary/50 transition-colors">
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-primary mb-2">Stream</h3>
-              <p className="text-xl font-medium">BCA (Final Year)</p>
+            <div className="group relative p-6 rounded-2xl overflow-hidden backdrop-blur-md bg-white/5 border border-white/10 hover:border-white/20 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20 hover:-translate-y-1">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="relative z-10">
+                <h3 className="text-xs font-bold uppercase tracking-widest text-primary/80 mb-3">Stream</h3>
+                <p className="text-2xl font-bold tracking-tight text-white drop-shadow-sm">BCA (Final Year)</p>
+              </div>
             </div>
           </div>
 
           <div className="pt-8">
-            <a href="mailto:smithapannakar704@gmail.com" className="group flex items-center gap-3 px-8 py-3 rounded-full bg-primary text-primary-foreground font-semibold hover:scale-105 transition-transform">
-              <span>Contact: smithapannakar704@gmail.com</span>
+            <a href="mailto:desaiveena660@gmail.com" className="group flex items-center gap-3 px-8 py-3 rounded-full bg-primary text-primary-foreground font-semibold hover:scale-105 transition-transform">
+              <span>Contact: desaiveena660@gmail.com</span>
             </a>
           </div>
         </div>
@@ -84,13 +93,13 @@ export function Footer() {
             <CountrySelector />
             <div className="h-4 w-px bg-white/20 hidden lg:block" />
             <p className="text-sm opacity-60">
-              © {new Date().getFullYear()} Smeeta Pannakar. Final Year Project.
+              © {new Date().getFullYear()} Veena Desai. Final Year Project.
             </p>
           </div>
 
           <div className="flex flex-col items-center lg:items-end gap-2 text-sm">
             <p className="font-semibold text-primary">Student Project: BCA | Government First Grade College, Dharwad</p>
-            <p className="opacity-60">ID: U02AJ23S0440 | Email: smithapannakar704@gmail.com</p>
+            <p className="opacity-60">ID: U02AJ23S0436 | Email: desaiveena660@gmail.com</p>
           </div>
         </div>
       </div>
